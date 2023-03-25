@@ -1,0 +1,10 @@
+.contenedor {
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    height: 300px; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
