@@ -1,0 +1,46 @@
+.contenedor {
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    height: 300px; 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+.centrar {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;    
+}
+.item img {
+    width: 60%;
+    height: auto;
+}
+.centrar2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgba(32, 178, 171, 0.808);
+    width: 100%;
+    height: 100%;
+}
+.column-50 {
+    width: 50%;
+    float: left; 
+    font-family: 'Montserrat', sans-serif;
+ }
+ .column-img {
+    width: 50%;
+    float: right;
+ }
+.p{
+    font-size: small;
+}
+
+
