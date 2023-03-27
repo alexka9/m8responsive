@@ -1,5 +1,5 @@
 body{
-    margin: 0%;
+    margin: 0;
 }
 .contenedor {
     background-image: url("header.jpg");
@@ -34,7 +34,7 @@ body{
     height: 100%;
 }
 .row {
-    height: 50px;
+    height: 100px;
     clear:both 
  }
 .column-50 {
@@ -48,9 +48,15 @@ body{
  .column33{
     width: 33%;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
+    padding: 0px;
     float: left;
  }
 #color{
     color:white;
+}
+#row2{
+   width: 100%;
+   height: 150%;
+   background-color: rgba(0, 0, 0, 0.529);
+   font-family: 'Montserrat', sans-serif;
 }
