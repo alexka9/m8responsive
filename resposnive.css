@@ -8,3 +8,10 @@
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
